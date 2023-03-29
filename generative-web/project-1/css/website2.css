@@ -95,3 +95,31 @@ iframe {
     height: 12px;
     background-color: black;
 }
+
+
+.container {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* background-color: rgba(255, 255, 255, 0.248); */
+}
+
+.container div{
+    background-color: rgba(141, 93, 93, 0);
+    border: 2px solid black;
+    aspect-ratio: 1;
+}
+
+.screenshots {
+    height: 120px;
+    width: auto;
+    border: 2px solid black;
+}
