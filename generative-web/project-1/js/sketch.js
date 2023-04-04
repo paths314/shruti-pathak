@@ -145,7 +145,7 @@ function draw() {
 
   background(randomBg)
 
-  var pxSize = 5
+  var pxSize = 4
   
   for(var x = 0; x < width; x+=pxSize) {
     for(var y = 0; y < height; y+=pxSize) { 
