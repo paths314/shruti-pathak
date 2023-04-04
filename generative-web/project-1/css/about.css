@@ -1,0 +1,132 @@
+body{
+    background: url("../assets/website/background.webp") center center;
+    /* background: #3b6ea5; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'VT323', monospace;
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.paint {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paint {
+    position: absolute;
+    z-index: 0;
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 110px;
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+  
+.container {
+    /* transform:scale(0.7); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 4vw;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+
+.title{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    z-index: 200;
+    bottom: 277px;
+    right: 435px;
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+
+#metadata {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    width: 500px;
+    z-index: 200;
+    top: 445px;
+    right: 58px;
+    /* top: 83.8vh;
+    left: 26vw; */
+    cursor: url("../assets/website/cursor-1-smallest.png"), auto;
+}
+
+#date, #name {
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+}
+  
+#mspaint-icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 70px;
+    width: auto;
+    cursor: url("../assets/website/cursor-pointer-smallest.png"), auto;
+    z-index: 500;
+}
+
+#help-icon {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    height: 60px;
+    width: auto;
+    cursor: url("../assets/website/cursor-pointer-smallest.png"), auto;
+    z-index: 500;
+}
+
+.palette {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 300;
+    gap: 4px;
+    top: 446.8px;
+    right: 367.5px;
+    /* top: 79.9vh;
+    left: 27.7vw; */
+}
+
+.color {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+}
+
+a {
+    cursor: url("../assets/website/cursor-pointer-smallest.png"), auto;
+}
+
+
