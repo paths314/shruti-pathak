@@ -23,11 +23,14 @@ function ditherColor(color, x1, y1) {
 }
 
 
+<<<<<<< HEAD
 
 
 // ---------------------------------------  dither variables  ------------------------------------------- 
 
 
+=======
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 var ditherTemplates;
 var dithers;
 var currentDither;
@@ -50,9 +53,12 @@ function preload() {
 
 
 
+<<<<<<< HEAD
 // ---------------------------------------  setup  ------------------------------------------- 
 
 
+=======
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 function setup() {
   createCanvas(500, 500)
   noStroke()
@@ -74,9 +80,12 @@ function setup() {
 
 
 
+<<<<<<< HEAD
 // ---------------------------------------  game color palettes  ------------------------------------------- 
 
 localStorage.setItem('test', 'hi, I am a test');
+=======
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 
 var bgColors = ['#000000']
 // var fillColors = ['#00FF00', '#0203e2','#FFFF00','#00FFFF','#FF00FF']
@@ -104,11 +113,14 @@ var palettes = [marioBros, marioBros2, donkeyKong, sonic, undertale, fbwg, three
 var selectedPalette = palettes[Math.floor(Math.random()*palettes.length)]
 
 
+<<<<<<< HEAD
 
 
 // ---------------------------------------  randomization  ------------------------------------------- 
 
 
+=======
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 var randomBg
 var randomFill
 var randomInt
@@ -122,6 +134,7 @@ function getRandom(){
 getRandom()
 
 
+<<<<<<< HEAD
 var randomInt1 = Math.floor(Math.random()* (600-70)) + 70
 var randomInt2 = Math.floor(Math.random()* (200-70)) + 70
 var randomInt3 = Math.floor(Math.random()* (200-50)) + 50
@@ -131,16 +144,30 @@ var randomInts = [randomInt1, randomInt2, randomInt3, randomInt4]
 
 function getRandomInt(){
   randomInt = randomInts[Math.floor(Math.random()*randomInts.length)]
+=======
+function getRandomInt(){
+  // randomInt = Math.floor(Math.random()* (800-70)) + 70
+  randomInt = Math.floor(Math.random()* (600-70)) + 70
+  // randomInt = Math.floor(Math.random()* (200-70)) + 70
+
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 }
 
 getRandomInt()
 
+<<<<<<< HEAD
 
 
 
 // ---------------------------------------  draw function (img generator)  ------------------------------------------- 
 
 
+=======
+console.log(randomInt)
+
+
+
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 function draw() {
 
   background(randomBg)
@@ -175,6 +202,7 @@ function draw() {
   }
 }
 
+<<<<<<< HEAD
 
 
 
@@ -186,6 +214,12 @@ console.log(localStorage.getItem('gameName'));
 
 var ditherNumber = document.getElementById('dither')
 console.log(ditherNumber)
+=======
+var gameName = document.getElementById('game')
+console.log (gameName)
+
+var ditherNumber = document.getElementById('dither')
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
 
 var paintPalette = document.querySelectorAll('color')
 console.log(paintPalette)
@@ -194,6 +228,7 @@ console.log(paintPalette)
 console.log(selectedPalette)
 
 
+<<<<<<< HEAD
 // function getMetadata (){
 //   if (selectedPalette == marioBros || marioBros2){
     
@@ -201,3 +236,13 @@ console.log(selectedPalette)
 // }
 
 // getMetadata()
+=======
+function getMetadata (){
+  if (selectedPalette == marioBros || marioBros2){
+    
+  }
+}
+
+getMetadata()
+
+>>>>>>> 56524abfe4205938a80675dd39ca1a5bf9d60921
