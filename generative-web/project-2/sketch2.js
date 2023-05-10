@@ -162,7 +162,7 @@ function setup() {
   mainContainer.child(canvasContainer)
   canvasContainer.child(buttonContainer)
 
-  footer = createDiv('© 2023 Shruti Pathak.')
+  footer = createDiv('© 2023 Shruti Pathak')
   footer.addClass('footer')
 
 
