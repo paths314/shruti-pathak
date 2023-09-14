@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Goofy Ahh Face</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script> -->
+    <!-- <script src="./collection.js" defer></script> -->
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+
+    <meta charset="utf-8"/>
+  </head>
+
+  <header>
+
+    <div class="menu">
+      <div id="menu-icons">
+        <a id='home' href="./index.html"><img id='home-icon' src="./assets/home-btn2.png"></a>
+        <a id='pen' href="./character.html"><img id='pen-icon' src="./assets/pen.png"></a>
+        <a id='collect-icon' href="collection.html"><img id='collect-icon' src="./assets/collect-icon-black.png"></a>
+      </div> 
+
+      <div id="title">
+
+      </div>
+
+      <div id="right">
+
+      </div>
+    </div>
+
+  </header>
+
+  <body>
+    <main>
+
+
+      <div id="main-container">
+        <div id="title-container">
+          <h1 id="title-text">Goofy Ahh Face</h1>
+          <button id="index-btn" onclick="window.location.href = './character.html';">Create your own</button>
+          <button id="collect-btn" onclick="window.location.href = './collection.html';">View Collection</button>
+        </div>
+
+        
+
+        <div id="title-img-container">
+          <img id='title-img' src="./assets/goofy-face-tp.png" onmouseover="hover(this)" onmouseout="unhover(this)">
+        </div>
+
+      </div>
+      <!-- <div id="info-title">About this website</div> -->
+
+
+
+      <div id="info-container">
+        <div id="info-title">About this website</div>
+        <div id="info">
+          <p>
+            Goofy (Cursed) Ahh Face is a character creator created for Currents: a-generative-web.
+            <br><br>
+            "Goofy Ahh": Stupid or ridiculous
+            <br>
+            "Cursed": Disturbing, weird, occassionally scary
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    © 2023 Shruti Pathak
+  </footer>
+
+  <script src="./landing.js"></script>
+
+</html>
