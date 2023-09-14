@@ -107,7 +107,7 @@ function dither(image) {
   
   var marioBros = ['#cc4b0a', '#febaa9', '#5d94fb', '#127c22', '#dcfcfb']
   var marioBros2 = ['#eb8634', '#005761', '#409995', '#83d221', '#0ca817']
-  var donkeyKong = ['#ae949a', '#050405', '#5a3f59', '#6e509a', '#768438', '#39451e']
+  var donkeyKong = ['#ae949a', '#050405', '#5a3f59', '#6e509a', '#768438', '#39451e'] //CHANGE
   var sonic = ['#2e89db', '#bb9c6e', '#2405a4', '#3a1c06', '#55b306', '#695f83', '#4d6cd9']
   var undertale = ['#3d120e', '#ffc90e', '#67a4e0', '#e607f8']
   var fbwg = ['#02b3ff', '#83dbff', '#ff0801', '#fe4a01', '#fdcd03', '#746b32', '#28290a', '#746b32', '#28290a', '#746b32', '#28290a', '#746b32', '#28290a','#746b32', '#746b32', '#746b32']

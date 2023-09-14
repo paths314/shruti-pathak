@@ -1,0 +1,85 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#body {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+  
+rect {
+    fill: none;
+    pointer-events: all;
+}
+  
+pre {
+    font-size: 30px;
+}
+  
+line {
+    stroke: blue;
+    stroke-width: 1px;
+}
+  
+.string, .regexp {
+    color: #f39;
+}
+  
+.keyword {
+    color: #00c;
+}
+  
+.comment {
+    color: #777;
+    font-style: oblique;
+}
+  
+.number {
+    color: #369;
+}
+  
+.class, .special {
+    color: #1181B8;
+}
+  
+a:link, a:visited {
+    color: steelblue;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #666;
+}
+  
+  
+  
+.node circle {
+    cursor: pointer;
+    fill: blue;
+    stroke: blue;
+    stroke-width: 1px;
+}
+
+  
+.node text {
+    font-size: 12px;
+}
+  
+path.link {
+    fill: none;
+    stroke: blue;
+    stroke-width: 1.0px;
+}
